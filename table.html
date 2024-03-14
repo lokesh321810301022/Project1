@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeTable-Spring Flowers School</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            background-color: rgb(228, 228, 228);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: auto;
+          
+        }
+
+        table {
+            width: 90%;
+            
+            max-width: 800px;
+            
+            border: 1px solid grey;
+            border-collapse: collapse;
+            margin: 20px;
+            
+        }
+
+        th,
+        td {
+            border: 1px solid rgba(0, 0, 0, 0.612);
+            padding: 8px;
+            text-align: center;
+        }
+
+        th:first-child,
+        td:first-child {
+            border-left: 1px solid rgba(0, 0, 0, 0.555);
+        }
+
+        @media screen and (max-width: 768px) {
+            table {
+                width: 100%;
+               
+                margin: 10px;
+              
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2 aria-label ="center">TIME TABLE</h2>
+    <div class="container">
+        <table>
+            <tr>
+                <th></th>
+                <th>
+                    <h3>MONDAY</h3>
+                </th>
+                <th>
+                    <h3>TUESDAY</h3>
+                </th>
+                <th>
+                    <h3>WEDNESDAY</h3>
+                </th>
+                <th>
+                    <h3>THURSDAY</h3>
+                </th>
+                <th>
+                    <h3>FRIDAY</h3>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <h3>10:30 - 10:45</h3>
+                </td>
+                <td>
+                    <h3>PHYSICS</h3>
+                </td>
+                <td>
+                    <h3>BEE</h3>
+                </td>
+                <td>
+                    <h3>MATHS</h3>
+                </td>
+                <td>
+                    <h3>COMPUTER LAB</h3>
+                </td>
+                <td>
+                    <h3>ENGLISH</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>10:50 - 11:05</h3>
+                </td>
+                <td>
+                    <h3>BEE</h3>
+                </td>
+                <td>
+                    <h3>PHYSICS</h3>
+                </td>
+                <td>
+                    <h3>COMPUTER SCIENCE</h3>
+                </td>
+                <td>
+                    <h3>JAVA</h3>
+                </td>
+                <td>
+                    <h3>CHEMISTRY lab</h3>
+                </td>
+            </tr>
+           <tr>
+                <td>
+                    <h3>11:10 - 11:25</h3>
+                </td>
+                <td>
+                    <h3>PHYSICS LAB</h3>
+                </td>
+                <td>
+                    <h3>MATH</h3>
+                </td>
+                <td>
+                    <h3>CHEMISTRY</h3>
+                </td>
+                <td>
+                    <h3>COMPUTER SCIENCE</h3>
+                </td>
+                <td>
+                    <h3>ENGLISH</h3>
+                </td>
+
+                <tr>
+                    <td>
+                        <h3>11:25 - 12:25</h3>
+                    </td>
+                    <td>
+                        <h3>JAVA</h3>
+                    </td>
+                    <td>
+                        <h3>BEE</h3>
+                    </td>
+                    <td>
+                        <h3>MATHS</h3>
+                    </td>
+                    <td>
+                        <h3>COMPUTER SCIENCE</h3>
+                    </td>
+                    <td>
+                        <h3>ENGLISH</h3>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h3>1:00 - 2:00</h3>
+                    </td>
+                    <td>
+                        <h3>PHYSICS</h3>
+                    </td>
+                    <td>
+                        <h3>CHEMISTRY</h3>
+                    </td>
+                    <td>
+                        <h3>MATHS</h3>
+                    </td>
+                    <td>
+                        <h3>BEE</h3>
+                    </td>
+                    <td>
+                        <h3>ENGLISH LAB</h3>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h3>2:00 - 3:00</h3>
+                    </td>
+                    <td>
+                        <h3>CS LAB</h3>
+                    </td>
+                    <td>
+                        <h3>DS</h3>
+                    </td>
+                    <td>
+                        <h3>JAVA</td>/h3>
+                    </td>
+                    <td>
+                        <h3> PHY LAB</h3>
+                    </td>
+                    <td>
+                        <h3>PHYSICS</h3>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
